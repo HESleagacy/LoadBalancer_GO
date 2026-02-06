@@ -1,0 +1,47 @@
+
+---
+
+## 🧹 `.gitignore` for Go Project
+
+Yes, you want one. No, Git does not need your compiled binaries, editor crumbs, or emotional baggage.
+
+Create `.gitignore`:
+
+```gitignore
+# Go build outputs
+/bin/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test outputs
+*.test
+*.out
+coverage.*
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directories (if ever used)
+vendor/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env files
+.env
+
