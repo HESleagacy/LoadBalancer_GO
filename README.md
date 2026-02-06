@@ -41,6 +41,9 @@ Each backend server implements:
 <img width="1366" height="768" alt="Screenshot from 2026-02-07 04-25-22" src="https://github.com/user-attachments/assets/04fbb027-bc4b-42fd-b203-4b04f80d0a82" />
 <img width="1366" height="768" alt="Screenshot from 2026-02-07 04-25-15" src="https://github.com/user-attachments/assets/1bb37510-b938-4ae5-9db4-5bb9d051424a" />
 <img width="1366" height="768" alt="Screenshot from 2026-02-07 04-25-00" src="https://github.com/user-attachments/assets/e2d3fe11-3964-4d2c-88b0-18b5e28b81e1" />
+
+---
+
 ```go
 type Server interface {
     Address() string
