@@ -1,0 +1,5 @@
+1) Client Request 
+2) LoadBalancer.serveProxy()
+3) getNextAvailableServer()
+4) Selected Server (simpleServer)
+5) ReverseProxy forwards request
